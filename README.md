@@ -1,11 +1,18 @@
 # Hackintosh_E450C 
 
 ``` bash
+<<<<<<< HEAD
 git clone https://github.com/zhangxuan1340/Hackintosh_E450C.git -b macOS14 --depth=1
 ```
 
 
 克隆版本分支macOS14版本。
+=======
+git clone https://github.com/zhangxuan1340/Hackintosh_E450C.git -b macOS14
+```
+克隆分支macOS14版本，master版本并无当前最新版本的支持，仅供个人测试。
+如您需要Retina显示器补丁请克隆master版本也可以直接下载ZIP。
+>>>>>>> master
 E450C 黑苹果目前已经完成一下功能：
 
 * IGPU Hotpatch驱动完成。
@@ -33,6 +40,7 @@ Clover 文件夹内包含
 
     * Config搭配Hotpatch即可引导
 
+<<<<<<< HEAD
 ## Retina补丁使用
 ``` bash
 ioreg -lw0 | grep IODisplayEDID | sed "/[^<]*</s///" | xxd -p -r | strings -6
@@ -43,3 +51,6 @@ B140HAN01.3
 /系统/资源库/Displays/Contents/Resources/Overrides/
 ```
 修改完成后放入到此目录下并进行重启，可以达到MacBook系列原生开启Retina目的
+=======
+目前除去睡眠唤醒问题，基本亦可以正常使用。
+>>>>>>> master
