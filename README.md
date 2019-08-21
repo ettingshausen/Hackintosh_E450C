@@ -1,10 +1,18 @@
 # Hackintosh_E450C 
 
 ``` bash
+<<<<<<< HEAD
+git clone https://github.com/zhangxuan1340/Hackintosh_E450C.git -b macOS14 --depth=1
+```
+
+
+克隆版本分支macOS14版本。
+=======
 git clone https://github.com/zhangxuan1340/Hackintosh_E450C.git -b macOS14
 ```
 克隆分支macOS14版本，master版本并无当前最新版本的支持，仅供个人测试。
 如您需要Retina显示器补丁请克隆master版本也可以直接下载ZIP。
+>>>>>>> master
 E450C 黑苹果目前已经完成一下功能：
 
 * IGPU Hotpatch驱动完成。
@@ -17,11 +25,10 @@ E450C 黑苹果目前已经完成一下功能：
 
 * LPC注入
 
-* 更新至macOS 10.14.2 后睡眠唤醒出现问题，唤醒后死机，正在排查原因，待后续更新。
-
+* 更新至macOS 10.14.2 修复花屏睡眠无法唤醒问题。
 未完成：
 
-* 睡眠唤醒故障
+* HDMi外接屏幕
 
 Clover 文件夹内包含
 
@@ -33,4 +40,17 @@ Clover 文件夹内包含
 
     * Config搭配Hotpatch即可引导
 
+<<<<<<< HEAD
+## Retina补丁使用
+``` bash
+ioreg -lw0 | grep IODisplayEDID | sed "/[^<]*</s///" | xxd -p -r | strings -6
+B140HAN01.3 
+```
+查询您的显示屏型号是否符合本补丁，如果您的屏幕与我的屏幕VID不一致请自行修改VID和PID。
+``` bash
+/系统/资源库/Displays/Contents/Resources/Overrides/
+```
+修改完成后放入到此目录下并进行重启，可以达到MacBook系列原生开启Retina目的
+=======
 目前除去睡眠唤醒问题，基本亦可以正常使用。
+>>>>>>> master

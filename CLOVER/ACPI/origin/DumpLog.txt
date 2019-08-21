@@ -1,142 +1,94 @@
-13:757  3:497  Found BIOS RSDP at F0120
-13:757  0:000  Printing ACPI tables from RSDP F0120 ...
-13:757  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-13:757  0:000    (Xsdt: 9CFFE1C0, Rsdt: 9CFFE0FC)
-13:757  0:000    9CFFE1C0: 'XSDT', 'TP-J5', Rev: 1, Len: 204
-13:757  0:000    9CFFE0FC: 'RSDT', 'TP-J5', Rev: 1, Len: 120
-13:757  0:000    Tables in Xsdt: 21
-13:757  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268
-13:757  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
-13:757  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70518
-13:760  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
-13:760  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
-13:760  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
-13:760  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
-13:760  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
-13:760  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
-13:760  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
-13:760  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
-13:760  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
-13:760  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
-13:760  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-13:760  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
-13:760  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
-13:760  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-13:760  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
-13:760  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-13:760  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
-13:760  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
-13:760  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
-13:760  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
-13:760  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 758
-13:760  0:000    Tables in Rsdt: 21
-13:760  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268
-13:760  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
-13:760  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70518
-13:762  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
-13:762  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
-13:762  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
-13:762  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
-13:762  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
-13:762  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
-13:762  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
-13:762  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
-13:762  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
-13:762  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
-13:762  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-13:762  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
-13:762  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
-13:762  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-13:762  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
-13:762  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-13:762  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
-13:762  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
-13:762  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
-13:762  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
-13:762  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 758
-13:762  0:000  Found UEFI Acpi 2.0 RSDP at 9CFFE014
-13:762  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
-13:762  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-13:762  0:000    (Xsdt: 9CFFE1C0, Rsdt: 9CFFE0FC)
-13:762  0:000    9CFFE1C0: 'XSDT', 'TP-J5', Rev: 1, Len: 204
-13:762  0:000    9CFFE0FC: 'RSDT', 'TP-J5', Rev: 1, Len: 120
-13:762  0:000    Tables in Xsdt: 21
-13:762  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268
-13:762  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
-13:762  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70518
-13:764  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
-13:764  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
-13:764  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
-13:764  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
-13:764  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
-13:764  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
-13:764  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
-13:764  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
-13:764  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
-13:764  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
-13:764  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-13:764  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
-13:764  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
-13:764  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-13:764  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
-13:764  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-13:764  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
-13:764  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
-13:764  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
-13:764  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
-13:764  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 758
-13:764  0:000    Tables in Rsdt: 21
-13:764  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268
-13:764  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
-13:764  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70518
-13:767  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
-13:767  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
-13:767  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
-13:767  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
-13:767  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
-13:767  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
-13:767  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
-13:767  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
-13:767  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
-13:767  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
-13:767  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-13:767  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
-13:767  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
-13:767  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-13:767  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
-13:767  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-13:767  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
-13:767  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
-13:767  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
-13:767  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
-13:767  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 758
-13:767  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
-13:767  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
-13:767  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
-13:767  0:000    (Rsdt: 9CFFE038)
-13:767  0:000    9CFFE038: 'RSDT', 'TP-J5', Rev: 1, Len: 120
-13:767  0:000    Tables in Rsdt: 21
-13:767  0:000    0. 9CFFA000: 'FACP', 'TP-J5', Rev: 1, Len: 116
-13:767  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000)
-13:767  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70518
-13:769  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
-13:769  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
-13:769  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
-13:769  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
-13:769  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
-13:769  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
-13:769  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
-13:769  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
-13:769  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
-13:769  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
-13:769  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-13:769  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
-13:769  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
-13:769  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-13:769  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
-13:769  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-13:769  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
-13:769  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
-13:769  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
-13:769  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
-13:769  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 758
+52:574  45:687  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+52:574  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+52:574  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+52:580  0:005    (Xsdt: 9CFFE1C0, Rsdt: 9CFFE0FC)
+52:580  0:000    9CFFE1C0: 'XSDT', 'TP-J5', Rev: 1, Len: 212 -> XSDT.aml
+52:582  0:002    9CFFE0FC: 'RSDT', 'TP-J5', Rev: 1, Len: 124 -> RSDT.aml
+52:585  0:002    Tables in Xsdt: 22
+52:585  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268 -> FACP.aml
+52:588  0:002        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
+52:588  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70375 -> DSDT.aml
+52:608  0:019        9CF68000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+52:619  0:011    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165 -> ASF!.aml
+52:622  0:003    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56 -> HPET.aml
+52:626  0:003    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82 -> ECDT.aml
+52:635  0:009    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152 -> APIC.aml
+52:638  0:003    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60 -> MCFG.aml
+52:641  0:003    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-0-TP-SSDT1.aml
+52:645  0:003    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158 -> SSDT-1-TP-SSDT2.aml
+52:649  0:004    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338 -> SSDT-2-SataAhci.aml
+52:653  0:003    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578 -> SSDT-3-Cpu0Ist.aml
+52:657  0:003    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932 -> SSDT-4-CpuSsdt.aml (Found hidden SSDT 4 pcs)
+52:661  0:004        * 96417998: '˜â”', '', Rev: 24, Len: 0  98 E2 81 94 00 00 00 00 18 8A 81 94 00 00 00 00 
+52:661  0:000        * 9CDC9618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x4_0-ApIst.aml
+52:665  0:003        * 9CDC8918: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1078  53 53 44 54 36 04 00 00 01 68 50 6D 52 65 66 00 Internal length = 1078 -> SSDT-x4_1-Cpu0Cst.aml
+52:669  0:004        * 9CDC7D98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+52:673  0:003  
+52:673  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873 -> SSDT-5-CtdpB.aml
+52:675  0:002    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239 -> SSDT-6-SaSsdt.aml
+52:678  0:002    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916 -> SSDT-7-CppcTabl.aml
+52:681  0:002    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110 -> PCCT.aml
+52:684  0:002    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756 -> SSDT-8-Cpc_Tabl.aml
+52:688  0:003    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66 -> UEFI.aml
+52:690  0:002    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85 -> MSDM.aml
+52:693  0:002    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70 -> BATB.aml
+52:695  0:002    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100 -> FPDT.aml
+52:698  0:002    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 738 -> UEFI.aml
+52:702  0:004    21. 9CFD5000: 'BGRT', 'TP-J5', Rev: 1, Len: 56 -> BGRT.aml
+52:705  0:002    Tables in Rsdt: 22
+52:705  0:000    0. 9CFF9000: 'FACP', 'TP-J5', Rev: 5, Len: 268
+52:705  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000, XDsdt: 9CFE3000, XFacs: 0)
+52:705  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70375
+52:707  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
+52:707  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
+52:707  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
+52:707  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
+52:707  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
+52:707  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
+52:707  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+52:707  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+52:707  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
+52:707  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
+52:707  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+52:707  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
+52:707  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
+52:707  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+52:707  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
+52:707  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+52:707  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
+52:707  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
+52:707  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
+52:707  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
+52:707  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 738
+52:707  0:000    21. 9CFD5000: 'BGRT', 'TP-J5', Rev: 1, Len: 56
+52:707  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+52:707  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+52:707  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+52:707  0:000    (Rsdt: 9CFFE038)
+52:707  0:000    9CFFE038: 'RSDT', 'TP-J5', Rev: 1, Len: 124
+52:707  0:000    Tables in Rsdt: 22
+52:707  0:000    0. 9CFFA000: 'FACP', 'TP-J5', Rev: 1, Len: 116
+52:707  0:000        (Dsdt: 9CFE3000, Facs: 9CF68000)
+52:707  0:000        9CFE3000: 'DSDT', 'TP-J5', Rev: 1, Len: 70375
+52:709  0:002        9CF68000: 'FACS', Ver: 2, Len: 64
+52:709  0:000    1. 9CFFD000: 'ASF!', 'TP-J5', Rev: 32, Len: 165
+52:709  0:000    2. 9CFFC000: 'HPET', 'TP-J5', Rev: 1, Len: 56
+52:709  0:000    3. 9CFFB000: 'ECDT', 'TP-J5', Rev: 1, Len: 82
+52:709  0:000    4. 9CFF8000: 'APIC', 'TP-J5', Rev: 1, Len: 152
+52:709  0:000    5. 9CFF7000: 'MCFG', 'TP-J5', Rev: 1, Len: 60
+52:709  0:000    6. 9CFF6000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+52:709  0:000    7. 9CFF5000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+52:709  0:000    8. 9CFE2000: 'SSDT', 'SataAhci', Rev: 1, Len: 2338
+52:709  0:000    9. 9CFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1578
+52:709  0:000    10. 9CFE0000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+52:709  0:000    11. 9CFDF000: 'SSDT', 'CtdpB', Rev: 2, Len: 873
+52:709  0:000    12. 9CFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 5239
+52:709  0:000    13. 9CFDC000: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+52:709  0:000    14. 9CFDB000: 'PCCT', 'TP-J5', Rev: 5, Len: 110
+52:709  0:000    15. 9CFDA000: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+52:709  0:000    16. 9CFD9000: 'UEFI', 'TP-J5', Rev: 1, Len: 66
+52:709  0:000    17. 9CF42000: 'MSDM', 'TP-J5', Rev: 3, Len: 85
+52:709  0:000    18. 9CFD8000: 'BATB', 'TP-J5', Rev: 1, Len: 70
+52:709  0:000    19. 9CFD7000: 'FPDT', 'TP-J5', Rev: 1, Len: 100
+52:709  0:000    20. 9CFD6000: 'UEFI', 'TP-J5', Rev: 1, Len: 738
+52:709  0:000    21. 9CFD5000: 'BGRT', 'TP-J5', Rev: 1, Len: 56
