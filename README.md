@@ -12,17 +12,16 @@
 
 E450C 黑苹果目前已经完成一下功能：
 
-* IGPU Hotpatch驱动完成。
-
-* HDAU 注入ID 27 完美进行切换，一切正常
-
-* 亮度调整完成，FN+K降低亮度，FN+P提高亮度
-
-* 注入Retina显示器
-
-* LPC注入
-
-* HDMi外接屏幕
+- [x] 电池
+- [x] 声音
+- [x] WiFi
+- [x] 蓝牙
+- [x] HDMI
+- [x] 触摸板(支持三指)
+- [x] AirDrop
+- [x] Handoff
+- [ ] Sidecar
+- [ ] USB3.0
 
 Clover 文件夹内包含
 
