@@ -20,7 +20,7 @@ E450C 黑苹果目前已经完成一下功能：
 - [x] 触摸板(支持三指)
 - [x] AirDrop
 - [x] Handoff
-- [ ] Sidecar
+- [x] Sidecar
 - [ ] USB3.0
 
 Clover 文件夹内包含
